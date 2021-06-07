@@ -1,0 +1,68 @@
+.section1 {
+    height: 700px;
+}
+
+.team {
+    padding-bottom: 10%;
+    font-size: 1.2rem;
+}
+
+.project {
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.column1 {
+    float: left;
+    display: block;
+    width: 30%;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.code1 {
+    text-indent: 420px;
+}
+
+.code2 {
+    text-indent: 410px;
+}
+
+.code3 {
+    text-indent: 390px;
+}
+
+
+.videotitle {
+    padding-bottom: 100px;
+    font-weight: bolder;
+}
+
+.videotext {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 760px) {
+    .section1 {
+        height: 1400px;
+    }
+
+    .column1, .column2 {
+        float:none;
+        margin: auto;
+    }
+
+    .column2 {
+        padding-top: 100px;
+    }
+
+    .code1, .code2, .code3 {
+        text-indent: 0;
+    }
+    
+}
